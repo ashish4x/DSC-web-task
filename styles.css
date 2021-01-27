@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap");
+
+. {
+  margin: 0;
+  padding: 0;
+}
+
+#main_name {
+  margin: 8px;
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: rgb(71, 240, 71);
+}
+
+#about {
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+
+.photo {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid rgb(71, 240, 71);
+  width: 15%;
+}
+
+.hobbies , .skills {
+    
+    text-align: center;
+    list-style-position: inside;
+    font-family: poppins;
+    
+    font-size: 30px;
+    
+}
+.hobbies_list{
+    text-align: left;
+    
+    font-family: poppins;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.skills_list{
+    text-align: left;
+    margin-left: 0%;
+    font-family: poppins;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.stars{
+    list-style-type: none;
+    margin-left: 100px;
+}
+
+ul {
+   
+    margin: 0;
+    padding: 0;
+    
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+}
+
